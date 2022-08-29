@@ -1,2 +1,60 @@
 /* Styling */
+body {
+    
+}
+.header {
+    background-color: #1F2937;
+}
+.content-one {
+    background-color: #1F2937;
+}
+.content-two {
+
+}
+.card-slot{
+
+}
+.content-three {
+
+}
+.content-four {
+
+}
+.footer{
+
+}
 /* Flexbox */
+body {
+    display: flex;
+    flex-direction: column;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.content-one {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.content-two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card-slot {
+    display: flex;
+}
+.content-three {
+    display: flex;
+    flex-direction: column;
+}
+.content-four {
+    display: flex;
+}
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
